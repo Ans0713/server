@@ -4,8 +4,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon index.js"
-  },
+  "start": "node index.js",
+  "vercel-build": "npm install && npm run build"
+},
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^5.11.15",
