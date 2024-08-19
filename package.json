@@ -4,9 +4,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-  "start": "node index.js",
-  "vercel-build": "npm install && npm run build"
-},
+    "start": "node index.js",  
+    "vercel-build": "echo 'No build step required'"  
+  },
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^5.11.15",
