@@ -40,6 +40,11 @@ export async function signup(req, res, next) {
             status: 'success',
             message: 'User registered successfully',
             token,
+            user: {
+                name: name,
+                email: email,  
+                role: role
+            }
         });
     } catch (error) {
         console.error('Signup Error:', error);
